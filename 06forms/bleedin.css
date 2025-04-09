@@ -1,0 +1,200 @@
+body {
+    font-family: "Merienda", serif;
+}
+
+
+
+    .-light {
+    font-family: "Merienda", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.Merienda-regular {
+    font-family: "Merienda", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Merienda-bold {
+    font-family: "Merienda", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: "Merienda", serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: white;
+}
+header {
+    background-color: #ff0000;
+padding: 1rem 2vw;  
+border: 2px solid #024873; 
+border-radius: .5rem; 
+}
+
+/* Header section styling */
+header span {
+    margin: 0;
+    color: #7e5b14;
+    background-color: #000000;
+    letter-spacing: .5px;
+    font-weight:700; 
+    font-size:2rem; 
+}
+
+/* Nav section  styling */
+nav {
+    background-color: #000000;
+}
+
+nav ul {
+    list-style-type: none; 
+    padding: 0 2vw; 
+    margin: 0; 
+    display: flex; 
+}
+
+nav a {
+    font-size: 1.1rem; 
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700; 
+    display:block; 
+    padding: 2rem 3rem; 
+}
+
+nav a:hover {
+    color: rgb(172, 133, 70)
+}
+
+/* Main section  styling */
+main {
+padding: 2rem 2vw; 
+}
+
+main h1{
+    color: #b40412;  
+}
+
+main h2{
+    color: #7e5b14;
+    margin-bottom: .2rem; 
+}
+
+main p{
+    color: #333333; 
+    margin: 0;
+}
+
+main ol {
+    padding: .5rem 30px; 
+    background-color: #efefef; 
+}
+
+main dl dt {
+color: #b40412; 
+font-weight: 700;
+}
+
+main dl dd {
+color: #024873; 
+font-size: .9rem;
+margin-left: 20px; 
+}
+
+main ul{
+    list-style-type:square;  
+}
+
+main ul li{
+    line-height: 225%; 
+    margin-bottom: .5rem;
+    font-size: .9rem
+}
+
+main address {
+    font-style: normal; 
+    background-color: #f2b705;
+    width: 12.5rem;
+    padding: .5rem; 
+    border: 2px solid #024873; 
+    border-radius: .5rem; 
+}
+
+
+main a {
+    color: #024873; 
+}
+main a:hover{
+    color: rgb(239, 0, 24);
+
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap; 
+
+}
+
+/* form styling stuff here */
+
+.myform fieldset {
+    border:  1px solid #43a0b6;
+    border-radius: .8rem;
+    margin-bottom: 1rem; 
+}
+
+.myform legend {
+    color: #43a0b6;
+    font-size: .8rem;
+}
+
+.myform [type=text], [type=tel], textarea, [type=email], select {
+    display: block; 
+}
+
+.myform label
+ {margin: .5 rem;
+}
+
+
+.myform [type=text], [type=tel], textarea, [type=email], select {
+border: 1px solid #888
+padding .3rem;
+width: 250px;
+border-radius: .3rem;
+font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 200;
+}
+.myform textarea {
+    height: 6rem;
+}
+
+.myform :required {
+    background-color: rgba(156,51,53,0.1)
+}
+
+.myform [type=submit] {
+    background-color: #43a0b6;
+    color: white; 
+    border: none; 
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    margin: 1rem 0 0 1vw; 
+}
+
+
+
+/* Footer section  styling */
+footer {
+    background-color: #b40412;
+    border: 2px solid #024873; 
+    border-radius: .5rem; 
+    text-align:center;
+    color: #000000;
+    padding: 1rem 0; 
+    font-size: .8rem; 
+}
